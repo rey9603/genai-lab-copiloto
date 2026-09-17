@@ -1,7 +1,7 @@
 import requests, time, statistics
 
 URL = "http://localhost:8000/v1/chat/completions"
-MODEL = "Qwen/Qwen2.5-7B-Instruct-AWQ"
+MODEL = "Qwen/Qwen2.5-14B-Instruct-AWQ"
 PROMPT = "Resume en 5 puntos las mejores prácticas de seguridad para un banco al adoptar LLMs en producción."
 
 lat, tps = [], []

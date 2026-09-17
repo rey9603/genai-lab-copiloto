@@ -16,3 +16,11 @@
 ### Pendiente
 - [ ] vs Qwen2.5-14B-AWQ (¿más cerebro al mismo costo de VRAM?)
 - [ ] vs Gemini 2.5 Flash via Vertex (latencia/calidad/costo)
+
+### Madrugada 17-sep — 14B + Gemini conectado
+- 14B-AWQ: ~55 tok/s estable, p50 ~7s (max_len 4096 + enforce-eager obligatorios:
+  con CUDA graphs solo quedaban 0.12 GiB de KV; eager libera ~0.8 GiB → 4.34 GiB).
+  Run 1 = cold start (7.6 tok/s): excluir warmup en benchs futuros.
+- 7B vs 14B: 154.8 vs ~55 tok/s — 2× cerebro ≈ 3× costo velocidad + mitad de contexto.
+- Vertex operativo: billing vinculado por CLI (proyecto nacía huérfano), Gemini 2.5
+  Flash respondiendo vía ADC. Pendiente sábado: bench gemelo + calidad con golden set.
