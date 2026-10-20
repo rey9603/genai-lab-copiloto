@@ -2,7 +2,7 @@
 
 **Autor:** Raimer Salas González
 **Inicio:** 16 de septiembre de 2026
-**Propósito:** Laboratorio personal de aprendizaje que replica, de punta a punta, el stack de un rol de liderazgo en IA Generativa empresarial: inferencia local optimizada, RAG de grado empresarial, agentes, evaluación sistemática, gobernanza, observabilidad y orquestación. Cada módulo cubre una capacidad real del dominio **haciéndola**, y cada decisión técnica queda documentada con datos en un ADR.
+**Propósito:** Laboratorio personal de aprendizaje que replica, de punta a punta, RAG de grado empresarial, agentes, evaluación sistemática, gobernanza, observabilidad y orquestación. Cada módulo cubre una capacidad real del dominio **haciéndola**, y cada decisión técnica queda documentada con datos en un ADR.
 
 > Este laboratorio es personal y corre en hardware propio. No contiene datos, código ni información de ningún empleador. El dominio bancario se simula con un corpus de políticas **sintéticas**.
 
